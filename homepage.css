@@ -1,0 +1,72 @@
+.navbar {
+    position: relative;
+    height: 75px;
+}
+
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;
+    /* 50% of your logo width */
+    display: block;
+}
+
+.searchbar {
+    border-radius: 10%;
+}
+
+.search-input {
+
+    border: 2px solid #fff;
+    box-shadow: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.search-input ::-webkit-input-placeholder,
+.search-input :-moz-placeholder,
+.search-input ::-moz-placeholder,
+.search-input :-ms-input-placeholder {
+    color: #fff;
+    font-weight: bold;
+}
+
+/** rotation if needed **/
+.glyphicon-rotate-180 {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+.search-icon {
+    position: relative;
+    color: #fff;
+    border-radius: 50px;
+    right: 30px;
+    top: 2px;
+}
+
+.carousel-inner {
+    height: 550px;
+}
+
+.item,
+img {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.underline::after {
+
+    content: "";
+    width: 50vw;
+    height: 1vh;
+    background-color: #95ffe0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 1rem;
+
+
+}
