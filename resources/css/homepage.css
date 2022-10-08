@@ -1,0 +1,118 @@
+.navbar {
+  position: relative;
+  height: 75px;
+}
+
+.brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;
+  /* 50% of your logo width */
+  display: block;
+}
+
+.searchbar {
+  border-radius: 10%;
+}
+
+.search-input {
+  border: 2px solid #fff;
+  box-shadow: none;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.search-input ::-webkit-input-placeholder,
+.search-input :-moz-placeholder,
+.search-input ::-moz-placeholder,
+.search-input :-ms-input-placeholder {
+  color: #fff;
+  font-weight: bold;
+}
+
+/** rotation if needed **/
+.glyphicon-rotate-180 {
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+}
+
+.search-icon {
+  position: relative;
+  color: #fff;
+  border-radius: 50px;
+  right: 30px;
+  top: 2px;
+}
+
+.carousel-inner {
+  height: 550px;
+}
+
+.item,
+img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.underline::after {
+  content: "";
+  width: 50vw;
+  height: 1vh;
+  background-color: #95ffe0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 1rem;
+}
+
+.footSection {
+  color: #f0f9ff;
+  background-color: #282d32;
+  width: 100vw;
+  text-decoration: none;
+}
+
+.footsection a {
+  text-decoration: none;
+}
+
+p,
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+/* footer contact button css */
+.contactbutton {
+  box-shadow: inset 0px 0px 17px -1px #bbdaf7;
+  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background-color: #79bbff;
+  border-radius: 8px;
+  border: 2px solid #84bbf3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 7px 18px;
+  text-decoration: none;
+  text-shadow: -1px 5px 0px #528ecc;
+}
+.contactbutton:hover {
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #3f92e4;
+}
+.contactbutton:active {
+  position: relative;
+  top: 1px;
+}
+
+h4,
+h5,
+h6,
+a {
+  color: #f0f9ff;
+  text-underline-offset: none;
+}
