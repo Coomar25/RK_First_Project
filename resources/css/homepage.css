@@ -5,8 +5,8 @@
 
 .brand {
   position: absolute;
-  left: 50%;
-  margin-left: -50px !important;
+  left: 46%;
+  margin-left: -45px !important;
   /* 50% of your logo width */
   display: block;
 }
@@ -78,6 +78,18 @@ img {
   text-decoration: none;
 }
 
+.lastfoosec {
+  width: 100vw;
+  height: 6rem;
+  background-color: black;
+  color: #f0f9ff;
+}
+
+.footersectionicon i {
+  padding: 1rem;
+  font-size: 3rem;
+}
+
 p,
 a {
   font-family: "Roboto", sans-serif;
@@ -109,10 +121,61 @@ a {
   top: 1px;
 }
 
-h4,
-h5,
-h6,
-a {
+.footerusefulllink a {
   color: #f0f9ff;
-  text-underline-offset: none;
+  text-decoration: none;
+}
+
+.moreanchorstyle1 a {
+  color: #528ecc;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.moreanchorstyle::after {
+  content: "";
+  width: 100vw;
+  height: 1px;
+  background-color: #2a2f2d;
+  position: absolute;
+  right: 0px;
+  border-radius: 1rem;
+}
+
+/* Admin adproduct button css */
+
+.addproductbutton {
+  box-shadow: inset 0px 0px 8px -1px #d4ddd8;
+  background: linear-gradient(to bottom, #a3c6e8 5%, #7dc2e5 100%);
+  background-color: #79bbff;
+  border-radius: 14px;
+  border: 2px solid #84bbf3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  padding: 6px 18px;
+  text-decoration: none;
+}
+.addproductbutton a {
+  color: #ffffff;
+  font-size: 12px;
+}
+.addproductbutton:hover {
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #3f92e4;
+}
+.addproductbutton:hover a {
+  font-size: 1rem;
+}
+
+.addproductbutton:active {
+  position: relative;
+  top: 0px;
+}
+
+.middlesection {
+  background: linear-gradient(#bfd5ff, #ffeabf);
 }
