@@ -14,13 +14,17 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6 {s
   font-family: sans-serif;
+  
 }
 
 p,
 a {
   font-family: sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+
 }
 
 .navbar {
@@ -51,4 +55,21 @@ a {
 .addproductbutton:active {
   position: relative;
   top: 1px;
+}
+
+
+
+.linkcolor:hover {
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.linkdeletecolor:hover {
+  background: linear-gradient(to bottom, #eecda3 10%, #ef629f 100%);
+}
+
+.statusoption option {
+  border-radius: 10%;
+  border-color: #ef629f;
 }
