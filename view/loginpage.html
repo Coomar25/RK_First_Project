@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../resources/css/loginpage.css">
+  <link rel="stylesheet" href="../resources/css/homepage.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="comntainer-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            
+    
+            <nav class="navbar navbar-expand-lg navigationbardesign " style="background: linear-gradient(#bfd5ff,#ffeabf)">
+              <div class=" container-fluid">
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 margin-left-4">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#men">MEN</a>
+                    </li>
+    
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#women">WOMEN</a>
+                    </li>
+    
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#kid">KIDS</a>
+                    </li>
+    
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#sale">SALE</a>
+                    </li>
+                  </ul>
+                  <a class="navbar-brand navbar brand" style="text-align:center; font-size: 30px;" href="home.html">Online
+                    Shopping</a>
+                 
+    
+    
+                  </ul>
+    
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2  search-input " type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success me-4 " type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+
+
+
+
+
+
+
+            <div class="container">
+            <div class="row">
+                <div class="col">
+    <div class="register">
+        <h1>Register Form</h1>
+        <h5>If you don't have id register from here.........</h5>
+        <br>
+        <div class="form">
+        <form>
+          <div class="row needs-validation" novalidate>
+            <div class="col-md-4">
+              <label>FullName:</label>
+              <input type="text" class="form-control" placeholder="Full name">
+            </div>
+            <div class="col">
+              <label>Phone Number:</label>
+              <input type="text" class="form-control" placeholder="Phone Number">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label>Email:</label>
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="col">
+              <label>Password</label>
+              <input type="text" class="form-control" placeholder="Password">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label>Date of Birth:</label>
+              <div class="col-sm-10">
+                <div class="input-group">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar">
+                    </i>
+                  </div>
+                  <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text" />
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label for="sel1">Gender:</label>
+                <select class="form-control" id="sel1">
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+
+            </div>
+          </div><br>
+
+
+          <div class="modal-footer">
+     
+            <button type="submit" class="btn btn-primary">Register</button>
+          </div>
+
+
+        </form>
+        </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="login">
+        <h1>Login Form</h1>
+        <div class="form">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div><br>
+            <div class="modal-footer">
+   
+              <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+          </form>
+          </div>
+              </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+
+
+  <!-- Extra JavaScript/CSS added manually in "Settings" tab -->
+  <!-- Include jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+     <!-- Include Date Range Picker -->
+  <script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+
+  <script>
+    $(document).ready(function () {
+      var date_input = $('input[name="date"]'); //our date input has the name "date"
+      var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
+      date_input.datepicker({
+        format: 'mm/dd/yyyy',
+        container: container,
+        todayHighlight: true,
+        autoclose: true,
+      })
+    })
+  </script>
+</body>
+
+</html>

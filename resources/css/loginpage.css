@@ -1,0 +1,13 @@
+.container{
+    display: block;
+    margin-top: 50px;
+}
+.login{
+    position: relative;
+    margin-left: 20%;
+}
+.form{
+    width: auto;
+    padding: 20px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.16);
+}
