@@ -409,17 +409,19 @@
           <h4>Satisfied with our product!</h4>
           <p>Contact Us</p>
 
-          <div class="mb-3 mt-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <div class="mb-3">
-            <button class="contactbutton " type="submit"> Submit</button>
-          </div>
+          <form action="" onsubmit="sendEmail(); reset(); return false;">
+            <div class="mb-3 mt-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <button class="contactbutton " type="submit"> Submit</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
@@ -458,6 +460,24 @@
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
 
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail(){
+      Email.send({
+    Host : "smtp.gmail.com",
+    Username : "kumarbhetwal25@gmail.com",
+    Password : "L0veyoumom$$$",
+    To : 'kumarbhetwal25@gmail.com',
+    From : document.getElementById("exampleFormControlInput1").value,
+    Subject : "Enquiry of new contact",
+    Body : "Email:" + document.getElementById("exampleFormControlInput1").value
+                    + " <br> Message: " + document.getElementById("exampleFormControlTextarea1").value
+}).then(
+  message => alert("Message sent successfully")
+);                                                                                                                                                                                                                                                                                                                      
+    }
+  </script>
 
 
 </body>
